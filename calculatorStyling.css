@@ -23,7 +23,6 @@ h1{
 
   .numbers {
     background-color: lightgrey;
-    /* width: 10%; */
     padding: 10px;
     font-size: 40px;
     text-align: center;
@@ -40,18 +39,9 @@ h1{
     height:12vh;
     background-color: lightblue;
     grid-column: 1 / -1; 
+    display: flex; 
+    align-items: center;
+    justify-content: right;
+    font-size: 50px;
+    padding-right: 10px;
   }
-
-/* .panel{
-    display: grid;
-    grid-template-areas: toprownumb toprownumb toprownumb;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    
-    background-color: aqua;
-    width: 100%;
-} */
-
-/* .first_three{
-    grid-area: toprownumb;
-} */
